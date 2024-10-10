@@ -8,6 +8,7 @@ This project, inspired by the 2021 GameStop phenomenon, aims to explore the impa
 
 The 2021 GameStop short squeeze orchestrated by r/wallstreetbets served as the key inspiration for this project. The power of decentralized financial dialogue demonstrated its ability to create significant market shifts, challenging the dominance of institutional investors. This event inspired a deeper dive into online forums as influential financial ecosystems capable of shaping market sentiment and behavior. By applying sentiment analysis techniques to posts from 11 key financial subreddits, this project explores whether similar "meme stock" movements could be predicted or better understood through natural language processing.
 
+
 ## Datasets
 
 The datasets used in this project include:
@@ -46,6 +47,7 @@ The sentiment analysis was conducted using a combination of different techniques
    - **Applied VADER to Posts and Comments**: The VADER sentiment analyzer was applied to both post titles, bodies, and comments.
    - **Classification**: Sentiment was categorized as Positive, Negative, or Neutral based on VADER's compound score.
    - **Entity Analysis**: Identified key entities like 'VOO', 'SPY', 'IRA', and 'Roth' and analyzed their correlation with sentiment scores.
+<img width="1253" alt="Screenshot 2024-10-10 at 4 47 44 PM" src="https://github.com/user-attachments/assets/a2b0a4a5-bf29-46e0-9017-ab4635379ade">
 
    - Key Findings:
      - Entities like 'VOO', 'SPY', 'IRA', and 'Roth' were positively correlated with positive sentiments.
@@ -72,6 +74,9 @@ Steps implemented in the Jupyter Notebook:
 - **Pre-Processed Text for Topic Modeling**: Text data was pre-processed by removing noise, tokenizing, and lemmatizing to ensure high-quality input for LDA.
 - **LDA Topic Modeling**: The LDA model was applied using scikit-learn to generate discussion topics.
 - **Topic Analysis**: The resulting topics were analyzed to understand dominant themes, and visualizations such as word clouds were generated to display topic significance.
+
+<img width="949" alt="Screenshot 2024-10-10 at 4 49 34 PM" src="https://github.com/user-attachments/assets/9b155123-e513-450c-9951-887611c4ff84">
+
 
 Example topics included:
 - Discussions around company valuation and market opportunities.
